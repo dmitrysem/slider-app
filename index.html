@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-app="sliderApp">
+    <div ng-controller="SliderController as sliderCtrl">
+        <div id="slider" class="slider">
+            <div class="thumb"></div>
+        </div>
+        <span>Received value: <b>{{ sliderCtrl.sliderValue }}</b></span>
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
